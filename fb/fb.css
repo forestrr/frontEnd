@@ -1,0 +1,36 @@
+.header
+{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+    
+}
+body
+{
+    margin:0;
+}
+.logo
+{
+    width: ;
+    float left: ;
+}
+.log_in{
+    padding-left: 800px;
+    margin-top: -85px;
+    width: 50%;
+    ;
+
+}
+.login-label
+{
+    color:aliceblue;
+    font-size: 18px; 
+}
+.button
+{
+    color: blue;
+    cursor: pointer;
+}
+.button:hover{
+    
+}

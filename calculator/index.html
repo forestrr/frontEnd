@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main_body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen"> 
+                
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button onclick="buttonclick(7)"class="btn"><strong>7</strong></button>
+                    <button onclick="buttonclick(8)"class="btn"><strong>8</strong></button>
+                    <button onclick="buttonclick(9)"class="btn"><strong>9</strong></button>
+                    <button onclick="buttonclick('/')"class="btn"><strong>/</strong></button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(4)"class="btn"><strong>4</strong></button>
+                    <button onclick="buttonclick(5)"class="btn"><strong>5</strong></button>
+                    <button onclick="buttonclick(6)"class="btn"><strong>6</strong></button>
+                    <button onclick="buttonclick('*')"class="btn"><strong>X</strong></button>
+                    
+                    
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick(1)"class="btn"><strong>1</strong></button>
+                    <button onclick="buttonclick(2)"class="btn"><strong>2</strong></button>
+                    <button onclick="buttonclick(3)"class="btn"><strong>3</strong></button>
+                    <button onclick="buttonclick('-')"class="btn"><strong>-</strong></button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="buttonclick('.')"class="btn"><strong>.</strong></button>
+                    <button onclick="buttonclick(0)"class="btn"><strong>0</strong></button>
+                    <button onclick="buttonclick('+')"class="btn"><strong>+</strong></button>
+                    <button onclick="equalClick('=')"class="btn"><strong>=</strong></button>
+                    
+                </div >
+                <div class="row" >
+                <button onclick="buttonClear()" class="btn"><strong>clear</strong></button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

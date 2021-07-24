@@ -1,0 +1,51 @@
+button{
+    background: grey;
+}
+p{
+    color: maroon;
+}
+#title
+{
+    color:mediumvioletred;
+    background-color:seagreen;
+}
+#nissan
+{
+    color: navy;
+    background-color: olive;
+
+}
+.content
+{
+    color: sienna;
+    background-color: silver; 
+}
+.outer_box{
+    width: 375px;
+    height: 126px;
+    background: green;
+    margin-left: 1px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border: 5px solid;
+    border-color: grey;
+
+
+}
+.white{
+   color: white
+}
+.grey{
+    color: ivory;
+}
+.inner_div{
+    margin: 10px;
+    background: grey;
+    width: 200px;
+    height: 100px;
+}
+.box{
+    margin-left: 100px;
+    padding-left: 50px;
+}
